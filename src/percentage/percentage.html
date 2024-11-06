@@ -1,0 +1,15 @@
+<div class="container-per-calc">
+  <h2>Calculate Percentage</h2>
+  <div class="main-grid pure-form">
+    <input type="text" [(ngModel)]="percentage" placeholder="Enter the % of" />
+    <div>% Of</div>
+    <input
+      type="number"
+      [(ngModel)]="value"
+      placeholder="Enter the value here"
+    />
+    <div>
+      <strong> = {{result() | number }} </strong>
+    </div>
+  </div>
+</div>

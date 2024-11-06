@@ -1,0 +1,7 @@
+.main-grid {
+  display: grid;
+  grid-template-columns: 30% 40px 30% 20%;
+  align-items: center;
+  grid-column-gap: 10px;
+  padding: 20px;
+}

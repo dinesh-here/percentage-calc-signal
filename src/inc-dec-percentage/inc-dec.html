@@ -1,0 +1,22 @@
+<h2>Increament or decrement percentage</h2>
+<div class="main-grid pure-form">
+  <input type="text" [(ngModel)]="percentage" placeholder="Enter the % of" />
+  <div>
+    <input
+      type="radio"
+      [(ngModel)]="oper"
+      name="oper"
+      value="inc"
+    />Increament<br />
+    <input
+      type="radio"
+      [(ngModel)]="oper"
+      name="oper"
+      value="dec"
+    />Decrement<br />
+  </div>
+  <input type="number" [(ngModel)]="value" placeholder="Enter the value here" />
+  <div>
+    <strong> = {{result() | number}} </strong>
+  </div>
+</div>
